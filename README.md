@@ -22,8 +22,10 @@ We aim to systematically investigate breast cancer heterogeneity across subtypes
 | `supervised_pam50_subtype_analysis.ipynb` | Classical and deep learning models for supervised classification of PAM50 subtypes. Includes evaluation on raw and reduced data. |
 | `unsupervised_pam50_subtype_analysis.ipynb` | Dimensionality reduction (PCA, t-SNE, UMAP, autoencoders) + clustering methods (KMeans, GMM, Spectral) for subtype discovery. |
 | `clinical_analysis.ipynb` | Statistical analysis of clinical variables across subtypes. Includes chi-square, ANOVA, logistic regression, and survival modeling. |
-| `LLM_analysis.py` | Lightweight pipeline for extracting methods from abstracts using LLMs and summarizing gene-function relationships via PubMed mining. |
+| `LLM_analysis.py` | LLM-based pipeline for mining biomedical techniques from PubMed abstracts and associating genes with breast cancer subtypes. |
+| `pam50_analysis_detailed.nb.html` | Rendered version of the PAM50 subtype analysis notebook. Ideal for sharing and viewing results without executing code. |
 | `README.md` | This file. Summary of modules, tools, and insights. |
+
 
 ---
 
